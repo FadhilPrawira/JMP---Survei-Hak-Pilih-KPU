@@ -20,7 +20,7 @@
             android:padding="16dp">
 
             <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/tilNIK"
+                android:id="@+id/til_NIK"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:hint="NIK"
@@ -29,7 +29,7 @@
                 app:layout_constraintTop_toTopOf="parent">
 
                 <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/etNIK"
+                    android:id="@+id/et_NIK"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="number"
@@ -37,83 +37,84 @@
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/tilNama"
+                android:id="@+id/til_Nama"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:hint="@string/nama"
                 android:layout_marginTop="8dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/tilNIK">
+                app:layout_constraintTop_toBottomOf="@+id/til_NIK">
 
                 <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/etNama"
+                    android:id="@+id/et_Nama"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="text" />
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/tilNoHP"
+                android:id="@+id/til_NoHP"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:hint="@string/no_hp"
                 android:layout_marginTop="8dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/tilNama">
+                app:layout_constraintTop_toBottomOf="@+id/til_Nama">
 
                 <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/etNoHP"
+                    android:id="@+id/et_NoHP"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="phone" />
             </com.google.android.material.textfield.TextInputLayout>
 
             <TextView
-                android:id="@+id/tvJenisKelamin"
+                android:id="@+id/tv_JenisKelamin"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/jenis_kelamin"
                 android:layout_marginTop="16dp"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/tilNoHP" />
+                app:layout_constraintTop_toBottomOf="@+id/til_NoHP" />
 
             <RadioGroup
-                android:id="@+id/rgJenisKelamin"
+                android:id="@+id/rg_JenisKelamin"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:layout_marginTop="8dp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/tvJenisKelamin">
+                app:layout_constraintTop_toBottomOf="@+id/tv_JenisKelamin">
 
                 <RadioButton
-                    android:id="@+id/rbLaki"
+                    android:id="@+id/rb_Laki"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Laki-laki" />
+
+                    android:text="@string/laki_laki" />
 
                 <RadioButton
-                    android:id="@+id/rbPerempuan"
+                    android:id="@+id/rb_Perempuan"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Perempuan"
+                    android:text="@string/perempuan"
                     android:layout_marginStart="16dp" />
             </RadioGroup>
 
             <TextView
-                android:id="@+id/tvTanggal"
+                android:id="@+id/tv_Tanggal"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/tanggal"
                 android:layout_marginTop="16dp"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/rgJenisKelamin" />
+                app:layout_constraintTop_toBottomOf="@+id/rg_JenisKelamin" />
 
             <DatePicker
-                android:id="@+id/dpTanggal"
+                android:id="@+id/dp_Tanggal"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:datePickerMode="spinner"
@@ -121,20 +122,20 @@
                 android:layout_marginTop="8dp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/tvTanggal" />
+                app:layout_constraintTop_toBottomOf="@+id/tv_Tanggal" />
 
             <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/tilAlamat"
+                android:id="@+id/til_Alamat"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:hint="@string/alamat"
                 android:layout_marginTop="16dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/dpTanggal">
+                app:layout_constraintTop_toBottomOf="@+id/dp_Tanggal">
 
                 <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/etAlamat"
+                    android:id="@+id/et_Alamat"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="textMultiLine"
@@ -142,26 +143,62 @@
             </com.google.android.material.textfield.TextInputLayout>
 
             <Button
-                android:id="@+id/btnCekLokasi"
+                android:id="@+id/btn_CekLokasi"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:text="@string/cek_lokasi"
                 android:layout_marginTop="16dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/tilAlamat" />
+                app:layout_constraintTop_toBottomOf="@+id/til_Alamat" />
+
+            <ImageView
+                android:id="@+id/iv_preview"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btn_CekLokasi"
+                app:srcCompat="@drawable/ic_place_holder" />
 
             <Button
-                android:id="@+id/btnGambar"
+                android:id="@+id/btn_Ambil_Gambar"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:text="@string/ambil_gambar"
                 android:layout_marginTop="8dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/btnCekLokasi"
-                app:layout_constraintBottom_toBottomOf="parent" />
+                app:layout_constraintTop_toBottomOf="@+id/iv_preview"
+                 />
 
+            <Button
+                android:id="@+id/btn_Simpan"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/simpan"
+                android:layout_marginTop="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btn_Ambil_Gambar"
+
+
+                />
+
+            <TextView
+                android:id="@+id/tv_result"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hasil"
+                android:layout_marginTop="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btn_Simpan"
+                app:layout_constraintBottom_toBottomOf="parent"/>
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.core.widget.NestedScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

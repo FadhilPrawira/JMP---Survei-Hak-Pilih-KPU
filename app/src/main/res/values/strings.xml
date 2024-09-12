@@ -15,4 +15,7 @@
     <string name="jenis_kelamin">Jenis Kelamin</string>
     <string name="tanggal">Tanggal</string>
     <string name="alamat">Alamat</string>
+    <string name="laki_laki">Laki-laki</string>
+    <string name="perempuan">Perempuan</string>
+    <string name="simpan">Simpan Data Pemilih</string>
 </resources>
