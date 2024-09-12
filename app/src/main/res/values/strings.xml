@@ -8,4 +8,11 @@
     <string name="copyright">© Fadhil Prawira - 2024\nSertifikasi BNSP - Junior Mobile Programmer</string>
     <string name="keluar_aplikasi">Keluar aplikasi</string>
     <string name="informasi_tentang_aplikasi_ini">Informasi tentang aplikasi ini</string>
+    <string name="cek_lokasi">Cek Lokasi</string>
+    <string name="ambil_gambar">Ambil Gambar</string>
+    <string name="nama">Nama</string>
+    <string name="no_hp">No. HP</string>
+    <string name="jenis_kelamin">Jenis Kelamin</string>
+    <string name="tanggal">Tanggal</string>
+    <string name="alamat">Alamat</string>
 </resources>
