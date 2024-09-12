@@ -31,7 +31,7 @@ public class VoterFormEntryActivity extends AppCompatActivity {
 
             // Ensure the ImageView is correctly set up
             try {
-                binding.previewImageView.setImageURI(currentImageUri);
+                binding.ivPreview.setImageURI(currentImageUri);
             } catch (Exception e) {
                 Log.e("Image Load Error", "Error setting image URI", e);
             }
@@ -83,7 +83,7 @@ public class VoterFormEntryActivity extends AppCompatActivity {
                 }
         );
 
-        binding.btnGambar.setOnClickListener(v -> {
+        binding.btnAmbilGambar.setOnClickListener(v -> {
             startCamera();  // Call startCamera() method when button is clicked
         });
         binding.btnSimpan.setOnClickListener(v -> {
