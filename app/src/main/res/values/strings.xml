@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">JMP - Survei Hak Pilih KPU</string>
+    <string name="title">Survei Pencocokan dan Penelitian Data Pemilih</string>
+    <string name="contentDescription">Logo Komisi Pemilihan Umum</string>
+    <string name="komisi_pemilihan_umum_pusat">Komisi Pemilihan Umum Pusat</string>
+    <string name="lihat_data_pemilih">Lihat Data Pemilih</string>
+    <string name="tambahkan_data_pemilih">Tambahkan Data Pemilih</string>
+    <string name="copyright">© Fadhil Prawira - 2024\nSertifikasi BNSP - Junior Mobile Programmer</string>
+    <string name="keluar_aplikasi">Keluar aplikasi</string>
+    <string name="informasi_tentang_aplikasi_ini">Informasi tentang aplikasi ini</string>
 </resources>
