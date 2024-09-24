@@ -3,11 +3,7 @@ package xyz.fadhilprawira.jmp_surveihakpilihkpu;
 import android.content.Intent;
 import android.os.Bundle;
 
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 
 import xyz.fadhilprawira.jmp_surveihakpilihkpu.databinding.ActivityMainBinding;
 import xyz.fadhilprawira.jmp_surveihakpilihkpu.ui.AboutActivity;
@@ -40,8 +36,6 @@ public class MainActivity extends AppCompatActivity {
             startActivity(i);
         });
 
-        binding.btnExit.setOnClickListener(v -> {
-            finish();
-        });
+        binding.btnExit.setOnClickListener(v -> finish());
     }
 }

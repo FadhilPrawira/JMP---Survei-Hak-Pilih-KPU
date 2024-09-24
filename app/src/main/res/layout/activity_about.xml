@@ -7,4 +7,31 @@
     android:layout_height="match_parent"
     tools:context=".ui.AboutActivity">
 
+    <TextView
+        android:id="@+id/about_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_marginBottom="581dp"
+        android:text="Aplikasi ini dibuat untuk memenuhi sertifikasi junior mobile programmer. KPU membutuhkan aplikasi untuk digunakan oleh petugas lapangan dalam mendata keluarga yang memiliki hak pilih. Aplikasi ini berfungsi untuk merekam data penduduk, titik lokasi rumah calon pemilih, serta foto sebagai bukti rekam kunjungan pengambilan data."
+        android:textColor="#000000"
+
+        android:textSize="16sp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/author_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Dibuat oleh Fadhil Prawira, 13 September 2024"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@+id/about_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
